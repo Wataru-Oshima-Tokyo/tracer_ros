@@ -1,7 +1,7 @@
 <launch>
     <include file="$(find tracer_base)/launch/tracer_base.launch" >
         <!-- <arg name="port_name" default="can0" /> -->
-		<arg name="port_name" default="/dev/ttyUSB0" />
+		<arg name="port_name" default="/dev/Scout_mini" />
 
         <arg name="simulated_robot" default="false" />
     </include>
